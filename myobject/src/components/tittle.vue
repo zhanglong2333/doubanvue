@@ -29,18 +29,19 @@ export default {
   top: 0;
   left: 0;
   right: 0;
-  height:.666667rem /* 50/75 */;
-  line-height: .666667rem /* 50/75 */;
+  height:.8rem /* 60/75 */;
+  line-height: .8rem /* 60/75 */;
   margin: 0 auto;
-  background:url('../../static//img/promotion_bg.jpg');
+  background:url('../../static//img/promotion_bg.jpg') no-repeat;
   border-bottom: 1px solid #f3f3f3;
 }
 .tittle_left{
-  height:.333333rem /* 25/75 */;
-  width: .666667rem /* 50/75 */;
+  height:.533333rem /* 40/75 */;
+  width:.933333rem /* 70/75 */ss ;
   float: left;
   margin-top: .16rem /* 12/75 */;
   padding-left: .266667rem /* 20/75 */;
+  border-bottom: 1px solid #f5f5f5;
 }
 .tiitle_right{
   float: right;
@@ -50,15 +51,11 @@ list-style:none;
   margin: 0;
   padding: 0;
 }
-li{
+.tiitle_right li{
   margin: 0;
   padding: 0;
   float: left;
   font-size:.213333rem /* 16/75 */;
   padding-right:.266667rem /* 20/75 */;
-}
-.clearfix{
-  clear: both;
-  content: '';
 }
 </style>
